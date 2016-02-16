@@ -1,0 +1,177 @@
+/*
+	Abrahm
+	16-11-15
+	The fslh is a collection of line-height setting for many font sizes and their justified gutter, use this piece of css file in your work for typography reasons.
+	font-size from 10-21 pixel and line-height from 130-185 percent may be used, note that the line-heights exist in 0's and 5's as in 130, 135, 140, 145...185
+*/
+
+.fs10-lh130, .fs10-lh135, .fs10-lh140, .fs10-lh145, .fs10-lh150, .fs10-lh155, .fs10-lh160, .fs10-lh165, .fs10-lh170, .fs10-lh175, .fs10-lh180, .fs10-lh185,
+.fs11-lh130, .fs11-lh135, .fs11-lh140, .fs11-lh145, .fs11-lh150, .fs11-lh155, .fs11-lh160, .fs11-lh165, .fs11-lh170, .fs11-lh175, .fs11-lh180, .fs11-lh185,
+.fs12-lh130, .fs12-lh135, .fs12-lh140, .fs12-lh145, .fs12-lh150, .fs12-lh155, .fs12-lh160, .fs12-lh165, .fs12-lh170, .fs12-lh175, .fs12-lh180, .fs12-lh185,
+.fs13-lh130, .fs13-lh135, .fs13-lh140, .fs13-lh145, .fs13-lh150, .fs13-lh155, .fs13-lh160, .fs13-lh165, .fs13-lh170, .fs13-lh175, .fs13-lh180, .fs13-lh185,
+.fs14-lh130, .fs14-lh135, .fs14-lh140, .fs14-lh145, .fs14-lh150, .fs14-lh155, .fs14-lh160, .fs14-lh165, .fs14-lh170, .fs14-lh175, .fs14-lh180, .fs14-lh185,
+.fs15-lh130, .fs15-lh135, .fs15-lh140, .fs15-lh145, .fs15-lh150, .fs15-lh155, .fs15-lh160, .fs15-lh165, .fs15-lh170, .fs15-lh175, .fs15-lh180, .fs15-lh185,
+.fs16-lh130, .fs16-lh135, .fs16-lh140, .fs16-lh145, .fs16-lh150, .fs16-lh155, .fs16-lh160, .fs16-lh165, .fs16-lh170, .fs16-lh175, .fs16-lh180, .fs16-lh185,
+.fs17-lh130, .fs17-lh135, .fs17-lh140, .fs17-lh145, .fs17-lh150, .fs17-lh155, .fs17-lh160, .fs17-lh165, .fs17-lh170, .fs17-lh175, .fs17-lh180, .fs17-lh185,
+.fs18-lh130, .fs18-lh135, .fs18-lh140, .fs18-lh145, .fs18-lh150, .fs18-lh155, .fs18-lh160, .fs18-lh165, .fs18-lh170, .fs18-lh175, .fs18-lh180, .fs18-lh185,
+.fs19-lh130, .fs19-lh135, .fs19-lh140, .fs19-lh145, .fs19-lh150, .fs19-lh155, .fs19-lh160, .fs19-lh165, .fs19-lh170, .fs19-lh175, .fs19-lh180, .fs19-lh185,
+.fs20-lh130, .fs20-lh135, .fs20-lh140, .fs20-lh145, .fs20-lh150, .fs20-lh155, .fs20-lh160, .fs20-lh165, .fs20-lh170, .fs20-lh175, .fs20-lh180, .fs20-lh185,
+.fs21-lh130, .fs21-lh135, .fs21-lh140, .fs21-lh145, .fs21-lh150, .fs21-lh155, .fs21-lh160, .fs21-lh165, .fs21-lh170, .fs21-lh175, .fs21-lh180, .fs21-lh185{
+	padding:0 !important;
+}
+
+.fs10-lh130{line-height:13px !important; word-spacing:1.5px !important} .fs10-lh130 div{padding:3px}
+.fs10-lh135{line-height:13.5px !important; word-spacing:1.75px !important} .fs10-lh135 div{padding:3.5px}
+.fs10-lh140{line-height:14px !important; word-spacing:2px !important} .fs10-lh140 div{padding:4px}
+.fs10-lh145{line-height:14.5px !important; word-spacing:2.25px !important} .fs10-lh145 div{padding:4.5px}
+.fs10-lh150{line-height:15px !important; word-spacing:2.5px !important} .fs10-lh150 div{padding:5px}
+.fs10-lh155{line-height:15.5px !important; word-spacing:2.75px !important} .fs10-lh155 div{padding:5.5px}
+.fs10-lh160{line-height:16px !important; word-spacing:3px !important} .fs10-lh160 div{padding:6px}
+.fs10-lh165{line-height:16.5px !important; word-spacing:3.25px !important} .fs10-lh165 div{padding:6.5px}
+.fs10-lh170{line-height:17px !important; word-spacing:3.5px !important} .fs10-lh170 div{padding:7px}
+.fs10-lh175{line-height:17.5px !important; word-spacing:3.75px !important} .fs10-lh175 div{padding:7.5px}
+.fs10-lh180{line-height:18px !important; word-spacing:4px !important} .fs10-lh180 div{padding:8px}
+.fs10-lh185{line-height:18.5px !important; word-spacing:4.25px !important} .fs10-lh185 div{padding:8.5px}
+
+.fs11-lh130{line-height:14.3px !important; word-spacing:1.65px !important} .fs11-lh130 div{padding:3.3px}
+.fs11-lh135{line-height:14.85px !important; word-spacing:1.925px !important} .fs11-lh135 div{padding:3.85px}
+.fs11-lh140{line-height:15.4px !important; word-spacing:2.2px !important} .fs11-lh140 div{padding:4.4px}
+.fs11-lh145{line-height:15.95px !important; word-spacing:2.475px !important} .fs11-lh145 div{padding:4.95px}
+.fs11-lh150{line-height:16.5px !important; word-spacing:2.75px !important} .fs11-lh150 div{padding:5.5px}
+.fs11-lh155{line-height:17.05px !important; word-spacing:3.025px !important} .fs11-lh155 div{padding:6.05px}
+.fs11-lh160{line-height:17.6px !important; word-spacing:3.3px !important} .fs11-lh160 div{padding:6.6px}
+.fs11-lh165{line-height:18.15px !important; word-spacing:3.575px !important} .fs11-lh165 div{padding:7.15px}
+.fs11-lh170{line-height:18.7px !important; word-spacing:3.85px !important} .fs11-lh170 div{padding:7.7px}
+.fs11-lh175{line-height:19.25px !important; word-spacing:4.125px !important} .fs11-lh175 div{padding:8.25px}
+.fs11-lh180{line-height:19.8px !important; word-spacing:4.4px !important} .fs11-lh180 div{padding:8.8px}
+.fs11-lh185{line-height:20.35px !important; word-spacing:4.675px !important} .fs11-lh185 div{padding:9.35px}
+
+.fs12-lh130{line-height:15.6px !important; word-spacing:1.8px !important} .fs12-lh130 div{padding:3.6px}
+.fs12-lh135{line-height:16.2px !important; word-spacing:2.1px !important} .fs12-lh135 div{padding:4.2px}
+.fs12-lh140{line-height:16.8px !important; word-spacing:2.4px !important} .fs12-lh140 div{padding:4.8px}
+.fs12-lh145{line-height:17.4px !important; word-spacing:2.7px !important} .fs12-lh145 div{padding:5.4px}
+.fs12-lh150{line-height:18px !important; word-spacing:3px !important} .fs12-lh150 div{padding:6px}
+.fs12-lh155{line-height:18.6px !important; word-spacing:3.3px !important} .fs12-lh155 div{padding:6.6px}
+.fs12-lh160{line-height:19.2px !important; word-spacing:3.6px !important} .fs12-lh160 div{padding:7.2px}
+.fs12-lh165{line-height:19.8px !important; word-spacing:3.9px !important} .fs12-lh165 div{padding:7.8px}
+.fs12-lh170{line-height:20.4px !important; word-spacing:4.2px !important} .fs12-lh170 div{padding:8.4px}
+.fs12-lh175{line-height:21px !important; word-spacing:4.5px !important} .fs12-lh175 div{padding:9px}
+.fs12-lh180{line-height:21.6px !important; word-spacing:4.8px !important} .fs12-lh180 div{padding:9.6px}
+.fs12-lh185{line-height:22.2px !important; word-spacing:5.1px !important} .fs12-lh185 div{padding:10.2px}
+
+.fs13-lh130{line-height:16.9px !important; word-spacing:1.95px !important} .fs13-lh130 div{padding:3.9px}
+.fs13-lh135{line-height:17.55px !important; word-spacing:2.275px !important} .fs13-lh135 div{padding:4.55px}
+.fs13-lh140{line-height:18.2px !important; word-spacing:2.6px !important} .fs13-lh140 div{padding:5.2px}
+.fs13-lh145{line-height:18.85px !important; word-spacing:2.925px !important} .fs13-lh145 div{padding:5.85px}
+.fs13-lh150{line-height:19.5px !important; word-spacing:3.25px !important} .fs13-lh150 div{padding:6.5px}
+.fs13-lh155{line-height:20.15px !important; word-spacing:3.575px !important} .fs13-lh155 div{padding:7.15px}
+.fs13-lh160{line-height:20.8px !important; word-spacing:3.9px !important} .fs13-lh160 div{padding:7.8px}
+.fs13-lh165{line-height:21.45px !important; word-spacing:4.225px !important} .fs13-lh165 div{padding:8.45px}
+.fs13-lh170{line-height:22.1px !important; word-spacing:4.55px !important} .fs13-lh170 div{padding:9.1px}
+.fs13-lh175{line-height:22.75px !important; word-spacing:4.875px !important} .fs13-lh175 div{padding:9.75px}
+.fs13-lh180{line-height:23.4px !important; word-spacing:5.2px !important} .fs13-lh180 div{padding:10.4px}
+.fs13-lh185{line-height:24.05px !important; word-spacing:5.525px !important} .fs13-lh185 div{padding:11.05px}
+
+.fs14-lh130{line-height:18.2px !important; word-spacing:2.1px !important} .fs14-lh130 div{padding:4.2px}
+.fs14-lh135{line-height:18.9px !important; word-spacing:2.45px !important} .fs14-lh135 div{padding:4.9px}
+.fs14-lh140{line-height:19.6px !important; word-spacing:2.8px !important} .fs14-lh140 div{padding:5.6px}
+.fs14-lh145{line-height:20.3px !important; word-spacing:3.15px !important} .fs14-lh145 div{padding:6.3px}
+.fs14-lh150{line-height:21px !important; word-spacing:3.5px !important} .fs14-lh150 div{padding:7px}
+.fs14-lh155{line-height:21.7px !important; word-spacing:3.85px !important} .fs14-lh155 div{padding:7.7px}
+.fs14-lh160{line-height:22.4px !important; word-spacing:4.2px !important} .fs14-lh160 div{padding:8.4px}
+.fs14-lh165{line-height:23.1px !important; word-spacing:4.55px !important} .fs14-lh165 div{padding:9.1px}
+.fs14-lh170{line-height:23.8px !important; word-spacing:4.9px !important} .fs14-lh170 div{padding:9.8px}
+.fs14-lh175{line-height:24.5px !important; word-spacing:5.25px !important} .fs14-lh175 div{padding:10.5px}
+.fs14-lh180{line-height:25.2px !important; word-spacing:5.6px !important} .fs14-lh180 div{padding:11.2px}
+.fs14-lh185{line-height:25.9px !important; word-spacing:5.95px !important} .fs14-lh185 div{padding:11.9px}
+
+.fs15-lh130{line-height:19.5px !important; word-spacing:2.25px !important} .fs15-lh130 div{padding:4.5px}
+.fs15-lh135{line-height:20.25px !important; word-spacing:2.625px !important} .fs15-lh135 div{padding:5.25px}
+.fs15-lh140{line-height:21px !important; word-spacing:3px !important} .fs15-lh140 div{padding:6px}
+.fs15-lh145{line-height:21.75px !important; word-spacing:3.375px !important} .fs15-lh145 div{padding:6.75px}
+.fs15-lh150{line-height:22.5px !important; word-spacing:3.75px !important} .fs15-lh150 div{padding:7.5px}
+.fs15-lh155{line-height:23.25px !important; word-spacing:4.125px !important} .fs15-lh155 div{padding:8.25px}
+.fs15-lh160{line-height:24px !important; word-spacing:4.5px !important} .fs15-lh160 div{padding:9px}
+.fs15-lh165{line-height:24.75px !important; word-spacing:4.875px !important} .fs15-lh165 div{padding:9.75px}
+.fs15-lh170{line-height:25.5px !important; word-spacing:5.25px !important} .fs15-lh170 div{padding:10.5px}
+.fs15-lh175{line-height:26.25px !important; word-spacing:5.625px !important} .fs15-lh175 div{padding:11.25px}
+.fs15-lh180{line-height:27px !important; word-spacing:6px !important} .fs15-lh180 div{padding:12px}
+.fs15-lh185{line-height:27.75px !important; word-spacing:6.375px !important} .fs15-lh185 div{padding:12.75px}
+
+.fs16-lh130{line-height:20.8px !important; word-spacing:2.4px !important} .fs16-lh130 div{padding:4.8px}
+.fs16-lh135{line-height:21.6px !important; word-spacing:2.8px !important} .fs16-lh135 div{padding:5.6px}
+.fs16-lh140{line-height:22.4px !important; word-spacing:3.2px !important} .fs16-lh140 div{padding:6.4px}
+.fs16-lh145{line-height:23.2px !important; word-spacing:3.6px !important} .fs16-lh145 div{padding:7.2px}
+.fs16-lh150{line-height:24px !important; word-spacing:4px !important} .fs16-lh150 div{padding:8px}
+.fs16-lh155{line-height:24.8px !important; word-spacing:4.4px !important} .fs16-lh155 div{padding:8.8px}
+.fs16-lh160{line-height:25.6px !important; word-spacing:4.8px !important} .fs16-lh160 div{padding:9.6px}
+.fs16-lh165{line-height:26.4px !important; word-spacing:5.2px !important} .fs16-lh165 div{padding:10.4px}
+.fs16-lh170{line-height:27.2px !important; word-spacing:5.6px !important} .fs16-lh170 div{padding:11.2px}
+.fs16-lh175{line-height:28px !important; word-spacing:6px !important} .fs16-lh175 div{padding:12px}
+.fs16-lh180{line-height:28.8px !important; word-spacing:6.4px !important} .fs16-lh180 div{padding:12.8px}
+.fs16-lh185{line-height:29.6px !important; word-spacing:6.8px !important} .fs16-lh185 div{padding:13.6px}
+
+.fs17-lh130{line-height:22.1px !important; word-spacing:2.55px !important} .fs17-lh130 div{padding:5.1px}
+.fs17-lh135{line-height:22.95px !important; word-spacing:2.975px !important} .fs17-lh135 div{padding:5.95px}
+.fs17-lh140{line-height:23.8px !important; word-spacing:3.4px !important} .fs17-lh140 div{padding:6.8px}
+.fs17-lh145{line-height:24.65px !important; word-spacing:3.825px !important} .fs17-lh145 div{padding:7.65px}
+.fs17-lh150{line-height:25.5px !important; word-spacing:4.25px !important} .fs17-lh150 div{padding:8.5px}
+.fs17-lh155{line-height:26.35px !important; word-spacing:4.675px !important} .fs17-lh155 div{padding:9.35px}
+.fs17-lh160{line-height:27.2px !important; word-spacing:5.1px !important} .fs17-lh160 div{padding:10.2px}
+.fs17-lh165{line-height:28.05px !important; word-spacing:5.525px !important} .fs17-lh165 div{padding:11.05px}
+.fs17-lh170{line-height:28.9px !important; word-spacing:5.95px !important} .fs17-lh170 div{padding:11.9px}
+.fs17-lh175{line-height:29.75px !important; word-spacing:6.375px !important} .fs17-lh175 div{padding:12.75px}
+.fs17-lh180{line-height:30.6px !important; word-spacing:6.8px !important} .fs17-lh180 div{padding:13.6px}
+.fs17-lh185{line-height:31.45px !important; word-spacing:7.225px !important} .fs17-lh185 div{padding:14.45px}
+
+.fs18-lh130{line-height:23.4px !important; word-spacing:2.7px !important} .fs18-lh130 div{padding:5.4px}
+.fs18-lh135{line-height:24.3px !important; word-spacing:3.15px !important} .fs18-lh135 div{padding:6.3px}
+.fs18-lh140{line-height:25.2px !important; word-spacing:3.6px !important} .fs18-lh140 div{padding:7.2px}
+.fs18-lh145{line-height:26.1px !important; word-spacing:4.05px !important} .fs18-lh145 div{padding:8.1px}
+.fs18-lh150{line-height:27px !important; word-spacing:4.5px !important} .fs18-lh150 div{padding:9px}
+.fs18-lh155{line-height:27.9px !important; word-spacing:4.95px !important} .fs18-lh155 div{padding:9.9px}
+.fs18-lh160{line-height:28.8px !important; word-spacing:5.4px !important} .fs18-lh160 div{padding:10.8px}
+.fs18-lh165{line-height:29.7px !important; word-spacing:5.85px !important} .fs18-lh165 div{padding:11.7px}
+.fs18-lh170{line-height:30.6px !important; word-spacing:6.3px !important} .fs18-lh170 div{padding:12.6px}
+.fs18-lh175{line-height:31.5px !important; word-spacing:6.75px !important} .fs18-lh175 div{padding:13.5px}
+.fs18-lh180{line-height:32.4px !important; word-spacing:7.2px !important} .fs18-lh180 div{padding:14.4px}
+.fs18-lh185{line-height:33.3px !important; word-spacing:7.65px !important} .fs18-lh185 div{padding:15.3px}
+
+.fs19-lh130{line-height:24.7px !important; word-spacing:2.85px !important} .fs19-lh130 div{padding:5.7px}
+.fs19-lh135{line-height:25.65px !important; word-spacing:3.325px !important} .fs19-lh135 div{padding:6.65px}
+.fs19-lh140{line-height:26.6px !important; word-spacing:3.8px !important} .fs19-lh140 div{padding:7.6px}
+.fs19-lh145{line-height:27.55px !important; word-spacing:4.275px !important} .fs19-lh145 div{padding:8.55px}
+.fs19-lh150{line-height:28.5px !important; word-spacing:4.75px !important} .fs19-lh150 div{padding:9.5px}
+.fs19-lh155{line-height:29.45px !important; word-spacing:5.225px !important} .fs19-lh155 div{padding:10.45px}
+.fs19-lh160{line-height:30.4px !important; word-spacing:5.7px !important} .fs19-lh160 div{padding:11.4px}
+.fs19-lh165{line-height:31.35px !important; word-spacing:6.175px !important} .fs19-lh165 div{padding:12.35px}
+.fs19-lh170{line-height:32.3px !important; word-spacing:6.65px !important} .fs19-lh170 div{padding:13.3px}
+.fs19-lh175{line-height:33.25px !important; word-spacing:7.125px !important} .fs19-lh175 div{padding:14.25px}
+.fs19-lh180{line-height:34.2px !important; word-spacing:7.6px !important} .fs19-lh180 div{padding:15.2px}
+.fs19-lh185{line-height:35.15px !important; word-spacing:8.075px !important} .fs19-lh185 div{padding:16.15px}
+
+.fs20-lh130{line-height:26px !important; word-spacing:3px !important} .fs20-lh130 div{padding:6px}
+.fs20-lh135{line-height:27px !important; word-spacing:3.5px !important} .fs20-lh135 div{padding:7px}
+.fs20-lh140{line-height:28px !important; word-spacing:4px !important} .fs20-lh140 div{padding:8px}
+.fs20-lh145{line-height:29px !important; word-spacing:4.5px !important} .fs20-lh145 div{padding:9px}
+.fs20-lh150{line-height:30px !important; word-spacing:5px !important} .fs20-lh150 div{padding:10px}
+.fs20-lh155{line-height:31px !important; word-spacing:5.5px !important} .fs20-lh155 div{padding:11px}
+.fs20-lh160{line-height:32px !important; word-spacing:6px !important} .fs20-lh160 div{padding:12px}
+.fs20-lh165{line-height:33px !important; word-spacing:6.5px !important} .fs20-lh165 div{padding:13px}
+.fs20-lh170{line-height:34px !important; word-spacing:7px !important} .fs20-lh170 div{padding:14px}
+.fs20-lh175{line-height:35px !important; word-spacing:7.5px !important} .fs20-lh175 div{padding:15px}
+.fs20-lh180{line-height:36px !important; word-spacing:8px !important} .fs20-lh180 div{padding:16px}
+.fs20-lh185{line-height:37px !important; word-spacing:8.5px !important} .fs20-lh185 div{padding:17px}
+
+.fs21-lh130{line-height:27.3px !important; word-spacing:3.15px !important} .fs21-lh130 div{padding:6.3px}
+.fs21-lh135{line-height:28.35px !important; word-spacing:3.675px !important} .fs21-lh135 div{padding:7.35px}
+.fs21-lh140{line-height:29.4px !important; word-spacing:4.2px !important} .fs21-lh140 div{padding:8.4px}
+.fs21-lh145{line-height:30.45px !important; word-spacing:4.725px !important} .fs21-lh145 div{padding:9.45px}
+.fs21-lh150{line-height:31.5px !important; word-spacing:5.25px !important} .fs21-lh150 div{padding:10.5px}
+.fs21-lh155{line-height:32.55px !important; word-spacing:5.775px !important} .fs21-lh155 div{padding:11.55px}
+.fs21-lh160{line-height:33.6px !important; word-spacing:6.3px !important} .fs21-lh160 div{padding:12.6px}
+.fs21-lh165{line-height:34.65px !important; word-spacing:6.825px !important} .fs21-lh165 div{padding:13.65px}
+.fs21-lh170{line-height:35.7px !important; word-spacing:7.35px !important} .fs21-lh170 div{padding:14.7px}
+.fs21-lh175{line-height:36.75px !important; word-spacing:7.875px !important} .fs21-lh175 div{padding:15.75px}
+.fs21-lh180{line-height:37.8px !important; word-spacing:8.4px !important} .fs21-lh180 div{padding:16.8px}
+.fs21-lh185{line-height:38.85px !important; word-spacing:8.925px !important} .fs21-lh185 div{padding:17.85px}

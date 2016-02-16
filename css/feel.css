@@ -1,0 +1,166 @@
+
+@font-face{
+	font-family:"fira sans ultralight";
+	src:
+		url("../fonts/FiraSans-UltraLight.ttf") format("truetype") ,
+		url("../fonts/FiraSans-UltraLight.woff") format("woff") ,
+		url("../fonts/FiraSans-UltraLight.eot") format("embedded-opentype")
+	;
+}
+
+html, body{
+	margin:0;
+	font-family:fira sans ultralight;
+	font-size:15px;
+	text-shadow:0 0 1.5px rgb(238, 238, 238);
+}
+
+h1, h2, h3, h4, h5, h6{
+	overflow:hidden;
+	margin:0;
+	padding:inherit;
+	line-height:130%;
+	word-spacing:0;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+	color:inherit;
+}
+
+h1{
+	font-size:233.3333333333333%;
+}
+
+h2{
+	font-size:200%;
+}
+
+h3{
+	font-size:166.6666666666667%;
+}
+
+h4{
+	font-size:133.3333333333333%;
+}
+
+h5{
+	font-size:100%;
+}
+
+h6{
+	font-size:66.66666666666667%;
+}
+
+p{
+	overflow:hidden;
+	margin:0;
+	padding:inherit;
+}
+
+a{
+	display:inline-block;
+	outline:0;
+	text-decoration:none;
+	color:royalblue;
+}
+
+a:hover{
+	color:blue;
+}
+
+hr{
+	margin:0;
+	border:0;
+	border-top:1px solid transparent;
+}
+
+img{
+	max-width:100%;
+}
+
+.icon{
+	width:45px; /* fs*3 */
+	border:1px solid rgb(221, 221, 221);
+	border-radius:50%;
+}
+
+.icon:hover{
+	border-width:2px;
+}
+
+.pr{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+.linkbutton{
+	float:right;
+	margin:1px 4.5px;
+	padding:inherit;
+	border:2px solid lime;
+	background-color:#fff;
+	font-weight:bold;
+	color:green;
+	white-space:nowrap;
+}
+
+.linkbutton:hover{
+	border-color:green;
+	color:green;
+}
+
+.bbon{
+	border-bottom:1px solid rgb(221, 221, 221);
+}
+
+.bbon-fair{
+	border-bottom:1px solid rgb(238, 238, 238);
+}
+
+.wsoff{
+	word-spacing:0;
+}
+
+.fwoff{
+	font-weight:normal;
+}
+
+.fs50{
+	font-size:50%;
+}
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+
+.content{
+	position:relative;
+	overflow:hidden;
+	padding:0 !important;
+	max-width:900px;
+}
+
+.center{
+	margin:0 auto;
+}
+
+.tc{
+	text-align:center;
+}
+
+.content-4{
+	max-width:189px; /* 225-36 */
+}
+
+.fc-nearblack{
+	color:rgb(17, 17, 17);
+}
+
+.fc-furblack{
+	color:rgb(34, 34, 34);
+}
