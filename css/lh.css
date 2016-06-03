@@ -1,0 +1,40 @@
+/*
+	abrahm
+	05-16
+	relative typography, do not nest line headings or lh1-6
+	other margin m, padding p, radius r
+*/
+
+h1, h2, h3, h4, h5, h6{
+	line-height:133% !important; /* lh1 */
+	word-spacing:0 !important;
+}
+
+h1{font-size:225%;}
+h2{font-size:193.75%;}
+h3{font-size:162.5%;}
+h4{font-size:131.25%;}
+h5{font-size:100%;}
+h6{font-size:68.75%;}
+
+h1, h2, h3, h4, h5, h6, p{
+	overflow:hidden;
+	margin:0;
+	padding:inherit;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color:inherit;}
+
+a{
+	text-decoration:none;
+	color:royalblue;
+}
+
+a:hover{color:blue;}
+
+.lh6{line-height:188%; word-spacing:0.44em;} .lh6 .m{margin:0.44em;} .lh6 .p{padding:0.44em;} .lh6 .r{border-radius:14.08px;}
+.lh5{line-height:177%; word-spacing:0.385em;} .lh5 .m{margin:0.385em;} .lh5 .p{padding:0.385em;} .lh5 .r{border-radius:12.32px;}
+.lh4{line-height:166%; word-spacing:0.33em;} .lh4 .m{margin:0.33em;} .lh4 .p{padding:0.33em;} .lh4 .r{border-radius:10.56px;}
+.lh3{line-height:155%; word-spacing:0.275em;} .lh3 .m{margin:0.275em;} .lh3 .p{padding:0.275em;} .lh3 .r{border-radius:8.8px;}
+.lh2{line-height:144%; word-spacing:0.22em;} .lh2 .m{margin:0.22em;} .lh2 .p{padding:0.22em;} .lh2 .r{border-radius:7.04px;}
+.lh1{line-height:133%; word-spacing:0.165em;} .lh1 .m{margin:0.165em;} .lh1 .p{padding:0.165em;} .lh1 .r{border-radius:5.28px;}

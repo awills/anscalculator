@@ -1,4 +1,3 @@
-
 @font-face{
 	font-family:"fira sans ultralight";
 	src:
@@ -12,122 +11,43 @@ html, body{
 	margin:0;
 	font-family:fira sans ultralight;
 	font-size:15px;
-	text-shadow:0 0 1.5px rgb(238, 238, 238);
-}
-
-h1, h2, h3, h4, h5, h6{
-	overflow:hidden;
-	margin:0;
-	padding:inherit;
-	line-height:130%;
-	word-spacing:0;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
-	color:inherit;
-}
-
-h1{
-	font-size:233.3333333333333%;
-}
-
-h2{
-	font-size:200%;
-}
-
-h3{
-	font-size:166.6666666666667%;
-}
-
-h4{
-	font-size:133.3333333333333%;
-}
-
-h5{
-	font-size:100%;
-}
-
-h6{
-	font-size:66.66666666666667%;
-}
-
-p{
-	overflow:hidden;
-	margin:0;
-	padding:inherit;
-}
-
-a{
-	display:inline-block;
-	outline:0;
-	text-decoration:none;
-	color:royalblue;
-}
-
-a:hover{
-	color:blue;
-}
-
-hr{
-	margin:0;
-	border:0;
-	border-top:1px solid transparent;
+	color:rgb(15,15,15);
+	text-shadow:0 0 2px rgb(240,240,240);
 }
 
 img{
 	max-width:100%;
 }
 
-.icon{
-	width:45px; /* fs*3 */
-	border:1px solid rgb(221, 221, 221);
-	border-radius:50%;
-}
-
-.icon:hover{
-	border-width:2px;
-}
-
-.pr{
-	position:absolute;
-	right:0;
-	top:0;
-}
-
-.linkbutton{
-	float:right;
-	margin:1px 4.5px;
-	padding:inherit;
-	border:2px solid lime;
-	background-color:#fff;
-	font-weight:bold;
-	color:green;
-	white-space:nowrap;
-}
-
-.linkbutton:hover{
-	border-color:green;
-	color:green;
-}
-
-.bbon{
-	border-bottom:1px solid rgb(221, 221, 221);
-}
-
-.bbon-fair{
-	border-bottom:1px solid rgb(238, 238, 238);
+.content{
+	position:relative;
+	margin:0 auto;
+	max-width:900px;
 }
 
 .wsoff{
 	word-spacing:0;
 }
 
-.fwoff{
-	font-weight:normal;
+.tc{
+	text-align:center;
 }
 
-.fs50{
-	font-size:50%;
+.upperlip{
+	border-top:1px solid rgb(240,240,240);
+}
+
+.lowerlip{
+	border-bottom:1px solid rgb(240,240,240);
+}
+
+.lip{
+	border-top:1px solid rgb(225,225,225);
+}
+
+.colspan1{
+	width:100%;
+	max-width:209.6px;
 }
 
 .fl{
@@ -138,29 +58,47 @@ img{
 	float:right;
 }
 
-.content{
-	position:relative;
+.nooverflow{
 	overflow:hidden;
-	padding:0 !important;
-	max-width:900px;
 }
 
-.center{
-	margin:0 auto;
+.clear{
+	clear:both;
 }
 
-.tc{
-	text-align:center;
+.right{
+	position:absolute;
+	right:0;
 }
 
-.content-4{
-	max-width:189px; /* 225-36 */
+.dirt{
+	background-color:rgb(254,254,254);
 }
 
-.fc-nearblack{
-	color:rgb(17, 17, 17);
+.logo{
+	color:inherit !important;
 }
 
-.fc-furblack{
-	color:rgb(34, 34, 34);
+.linkbutton{
+	display:inline-block;
+	padding:inherit;
+	border:1px solid lime;
+	color:green !important;
+	font-weight:bold;
+	word-spacing:0;
+	background-color:#fff;
+}
+
+.linkbutton:hover{
+	border-color:green;
+}
+
+.togglebutton{
+	border:1px solid rgb(225, 225, 225);
+	border-radius:50%;
+	opacity:.9;
+}
+
+.togglebutton:hover{
+	border-width:2px;
 }
