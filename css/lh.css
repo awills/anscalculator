@@ -32,9 +32,9 @@ a{
 
 a:hover{color:blue;}
 
-.lh6{line-height:188%; word-spacing:0.44em;} .lh6 .m{margin:0.44em;} .lh6 .p{padding:0.44em;} .lh6 .r{border-radius:14.08px;}
-.lh5{line-height:177%; word-spacing:0.385em;} .lh5 .m{margin:0.385em;} .lh5 .p{padding:0.385em;} .lh5 .r{border-radius:12.32px;}
-.lh4{line-height:166%; word-spacing:0.33em;} .lh4 .m{margin:0.33em;} .lh4 .p{padding:0.33em;} .lh4 .r{border-radius:10.56px;}
-.lh3{line-height:155%; word-spacing:0.275em;} .lh3 .m{margin:0.275em;} .lh3 .p{padding:0.275em;} .lh3 .r{border-radius:8.8px;}
-.lh2{line-height:144%; word-spacing:0.22em;} .lh2 .m{margin:0.22em;} .lh2 .p{padding:0.22em;} .lh2 .r{border-radius:7.04px;}
-.lh1{line-height:133%; word-spacing:0.165em;} .lh1 .m{margin:0.165em;} .lh1 .p{padding:0.165em;} .lh1 .r{border-radius:5.28px;}
+.lh6{line-height:188%; word-spacing:0.22em;} .lh6 .m{margin:0.44em;} .lh6 .p{padding:0.44em;} .lh6 .r{border-radius:0.88em;} /*gutter:7.04*/
+.lh5{line-height:177%; word-spacing:0.1925em;} .lh5 .m{margin:0.385em;} .lh5 .p{padding:0.385em;} .lh5 .r{border-radius:0.77em;} /*gutter:6.16*/
+.lh4{line-height:166%; word-spacing:0.165em;} .lh4 .m{margin:0.33em;} .lh4 .p{padding:0.33em;} .lh4 .r{border-radius:0.66em;} /*gutter:5.28*/
+.lh3{line-height:155%; word-spacing:0.1375em;} .lh3 .m{margin:0.275em;} .lh3 .p{padding:0.275em;} .lh3 .r{border-radius:0.55em;} /*gutter:4.4*/
+.lh2{line-height:144%; word-spacing:0.11em;} .lh2 .m{margin:0.22em;} .lh2 .p{padding:0.22em;} .lh2 .r{border-radius:0.44em;} /*gutter:3.52*/
+.lh1{line-height:133%; word-spacing:0.0825em;} .lh1 .m{margin:0.165em;} .lh1 .p{padding:0.165em;} .lh1 .r{border-radius:0.33em;} /*gutter:2.64*/
